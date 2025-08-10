@@ -1,16 +1,5 @@
-#### Latest Builds
-
-##### Latest AppVeyor build
-
-|Latest Build|
-|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/inf2kinljmp8a5ul?svg=true)](https://ci.appveyor.com/project/TomGrobbe/vmenu)|
-
---------
-
-
 # vMenu
-vMenu is a server-side menu for FiveM servers, including full\* permission support.
+vMenu is a server-side menu for FiveM servers, including full\* permission support. This custom version has been modified for my FiveM server.
 
 
 \*(Some features do not have permissions support as they are either harmless or it'd just be silly to deny them. However, they will be disabled if you deny access to the submenu that they are a part of (eg: unlimited stamina in Player Options will be disabled if you deny `vMenu.PlayerOptions.Menu`.))
@@ -19,32 +8,13 @@ vMenu is a server-side menu for FiveM servers, including full\* permission suppo
 
 # Download & Installation & Permissions
 
-## Download
-
-Click [here](https://github.com/TomGrobbe/vMenu/releases) to go to the releases page and download it.
-
---------
-
-## Installation
-Please follow the instructions over at the [vMenu docs](https://docs.vespura.com/vmenu/installation)
-
-## ZAP-Hosting
-You can use ZAP-Hosting's one-click installer for vMenu. Get your own FiveM server at ZAP-Hosting with a 20% discount [HERE](https://zap-hosting.com/vespura) and make sure to use `Vespura` at checkout.
-
---------
-
-## Support
-If you like my work, please consider supporting me on [**Patreon**](https://www.patreon.com/vespura). I've put a _lot_ of my time and hard work into these and other projects.
+Work in progress
 
 --------
 
 ## Trouble shooting & support
-Take a look at the docs first of all. I will ignore you if your question is answered on the docs or the forum topic.
 
-- [Docs](https://docs.vespura.com/vmenu/)
-- [Forum topic](https://vespura.com/vmenu)
-- [Discord](https://vespura.com/discord)
-
+No support will be given - Please visit the original vMenu page for support.
 
 --------
 
