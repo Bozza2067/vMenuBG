@@ -318,12 +318,6 @@ namespace vMenuClient
             set { SetSavedSettingsInt("miscLastTimeCycleModifierStrength", value); }
         }
 
-        public static bool MPPedPreviews
-        {
-            get { return GetSettingsBool("mpPedPreviews"); }
-            set { SetSavedSettingsBool("mpPedPreviews", value); }
-        }
-
         #region keybind menu
         public static bool KbTpToWaypoint
         {
@@ -439,8 +433,7 @@ namespace vMenuClient
                     "vehicleGodEngine" or
                     "vehicleGodVisual" or
                     "vehicleGodStrongWheels" or
-                    "vehicleGodRamp" or
-                    "mpPedPreviews"
+                    "vehicleGodRamp"
                     )
                 {
                     SetSavedSettingsBool(kvpString, true);
