@@ -180,19 +180,19 @@ namespace vMenuClient.menus
             var setDirtLevel = new MenuListItem("Set Dirt Level", dirtlevel, 0, "Select how much dirt should be visible on your vehicle, press ~r~enter~s~ " +
                 "to apply the selected level.");
             var licensePlates = new List<string> {
-                GetLabelText("CMOD_PLA_0"), // Plate Index 0 // BlueOnWhite1
-                GetLabelText("CMOD_PLA_1"), // Plate Index 1 // BlueOnWhite2
-                GetLabelText("CMOD_PLA_2"), // Plate Index 2 // BlueOnWhite3
-                GetLabelText("CMOD_PLA_3"), // Plate Index 3 // YellowOnBlue
-                GetLabelText("CMOD_PLA_4"), // Plate Index 4 // YellowOnBlack
-                "North Yankton", // Plate Index 5 // NorthYankton
-                GetLabelText("CMOD_PLA_6"), // Plate Index 6 // ECola
-                GetLabelText("CMOD_PLA_7"), // Plate Index 7 // LasVenturas
-                GetLabelText("CMOD_PLA_8"), // Plate Index 8 // LibertyCity
-                GetLabelText("CMOD_PLA_9"), // Plate Index 9 // LSCarMeet
-                GetLabelText("CMOD_PLA_10"), // Plate Index 10 // LSPanic
-                GetLabelText("CMOD_PLA_11"), // Plate Index 11 // LSPounders
-                GetLabelText("CMOD_PLA_12"), // Plate Index 12 // Sprunk
+                "San Andreas", // Plate Index 0 // BlueOnWhite1 // Modern
+                "San Andreas Retro", // Plate Index 1 // BlueOnWhite2 // Old
+                "San Andreas Exempt", // Plate Index 2 // BlueOnWhite3 // Exempt
+                "San Andreas Classic", // Plate Index 3 // YellowOnBlue // 70s
+                "San Andreas Vintage", // Plate Index 4 // YellowOnBlack // 60s
+                "Robada", // Plate Index 5 // NorthYankton // Robada
+                "San Andreas Digital", // Plate Index 6 // ECola  // SA Digital
+                "Cascadia", // Plate Index 7 // LasVenturas // Oregon
+                "Washington", // Plate Index 8 // LibertyCity // WA
+                "Texas", // Plate Index 9 // LSCarMeet // TX
+                "No Plates", // Plate Index 10 // LSPanic
+                "New Austin", // Plate Index 11 // LSPounders // New Austin
+                "Montana", // Plate Index 12 // Sprunk // Montana
             };
             var setLicensePlateType = new MenuListItem("License Plate Type", licensePlates, 0, "Choose a license plate type and press ~r~enter ~s~to apply " +
                 "it to your vehicle.");
