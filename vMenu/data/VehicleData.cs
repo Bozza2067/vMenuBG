@@ -1267,39 +1267,18 @@ namespace vMenuClient.data
             public static List<string> Emergency { get; } = new List<string>()
             {
                 "AMBULANCE",
-                "FBI",
-                "FBI2",
                 "FIRETRUK",
                 "LGUARD",
                 "PBUS",
-                "POLCARACARA", // AGENTS OF SABOTAGE (MP2024_02) DLC - Requires b3407
-                "POLCOQUETTE4", // AGENTS OF SABOTAGE (MP2024_02) DLC - Requires b3407
-                "POLDOMINATOR10", // BOTTOM DOLLAR BOUNTIES (MP2024_01) DLC - Requires b3258
-                "POLDORADO", // BOTTOM DOLLAR BOUNTIES (MP2024_01) DLC - Requires b3258
-                "POLFACTION2", // AGENTS OF SABOTAGE (MP2024_02) DLC - Requires b3407
-                "POLGAUNTLET", // CHOP SHOP (MP2023_02) DLC - Requires b3095
-                "POLGREENWOOD", // BOTTOM DOLLAR BOUNTIES (MP2024_01) DLC - Requires b3258
-                "POLICE",
-                "POLICE2",
-                "POLICE3",
-                "POLICE4",
-                "POLICE5", // CHOP SHOP (MP2023_02) DLC - Requires b3095
-                "POLICEB",
-                "POLICEB2", // MONEY FRONTS (MP2025_01) DLC - Requires b3570
-                "POLICEOLD1",
-                "POLICEOLD2",
-                "POLICET",
+                "LSPDSCOUT2A",
+                "LSPDTORR",
                 "POLICET3", // BOTTOM DOLLAR BOUNTIES (MP2024_01) DLC - Requires b3258
-                "POLIMPALER5", // BOTTOM DOLLAR BOUNTIES (MP2024_01) DLC - Requires b3258
-                "POLIMPALER6", // BOTTOM DOLLAR BOUNTIES (MP2024_01) DLC - Requires b3258
                 "POLMAV",
-                "POLTERMINUS", // AGENTS OF SABOTAGE (MP2024_02) DLC - Requires b3407
-                "PRANGER",
                 "PREDATOR",
                 "RIOT",
                 "RIOT2",
-                "SHERIFF",
-                "SHERIFF2",
+                "LSSDSTANIER",
+                "BCSONALAMO",
             };
             #endregion
             #region Military
@@ -1314,7 +1293,6 @@ namespace vMenuClient.data
                 "CRUSADER",
                 "HALFTRACK",
                 "KHANJALI",
-                "MINITANK", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
                 "RHINO",
                 "SCARAB",
                 "SCARAB2",
